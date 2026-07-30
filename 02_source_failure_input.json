@@ -1,0 +1,13 @@
+{
+  "documents": [
+    {
+      "documentId": "xrechnung-source-failure",
+      "fileName": "blocked-loopback.xml",
+      "url": "https://127.0.0.1/invoice.xml"
+    }
+  ],
+  "sourceSyntax": "UBL",
+  "allowPartialNormalization": true,
+  "storeTechnicalReports": true,
+  "maxFindingsPerDocument": 10
+}
