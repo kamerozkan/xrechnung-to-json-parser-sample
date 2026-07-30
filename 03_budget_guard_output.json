@@ -1,0 +1,16 @@
+{
+  "contractVersion": "einvoice-suite-result/1.0.0",
+  "actorName": "xrechnung-to-json-parser",
+  "itemId": "xrechnung-budget-guard",
+  "inputIndex": 0,
+  "fileName": "01.01a-INVOICE_ubl.xml",
+  "producedAt": "2026-07-30T08:48:47.653232Z",
+  "processingStatus": "FAILED",
+  "conformanceStatus": "NOT_EVALUATED",
+  "billable": false,
+  "scope": "DOCUMENT_NORMALIZATION_AND_TECHNICAL_CHECKS",
+  "error": {
+    "code": "BUDGET_LIMIT_REACHED",
+    "message": "The run charge limit did not allow this document to be evaluated"
+  }
+}
