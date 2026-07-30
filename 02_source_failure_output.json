@@ -1,0 +1,16 @@
+{
+  "contractVersion": "einvoice-suite-result/1.0.0",
+  "actorName": "xrechnung-to-json-parser",
+  "itemId": "xrechnung-source-failure",
+  "inputIndex": 0,
+  "fileName": "blocked-loopback.xml",
+  "producedAt": "2026-07-30T08:48:07.928658Z",
+  "processingStatus": "FAILED",
+  "conformanceStatus": "NOT_EVALUATED",
+  "billable": false,
+  "scope": "DOCUMENT_NORMALIZATION_AND_TECHNICAL_CHECKS",
+  "error": {
+    "code": "SOURCE_FETCH_FAILED",
+    "message": "Private, local, reserved, and metadata targets are blocked"
+  }
+}
