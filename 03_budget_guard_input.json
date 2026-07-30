@@ -1,0 +1,18 @@
+{
+  "actorInput": {
+    "documents": [
+      {
+        "documentId": "xrechnung-budget-guard",
+        "fileName": "01.01a-INVOICE_ubl.xml",
+        "url": "https://raw.githubusercontent.com/itplr-kosit/xrechnung-testsuite/b3791d47a2e1446b1751a27cb732aac294231293/src/test/business-cases/standard/01.01a-INVOICE_ubl.xml"
+      }
+    ],
+    "sourceSyntax": "UBL",
+    "allowPartialNormalization": true,
+    "storeTechnicalReports": true,
+    "maxFindingsPerDocument": 100
+  },
+  "runOptions": {
+    "maxTotalChargeUsd": 0.004
+  }
+}
