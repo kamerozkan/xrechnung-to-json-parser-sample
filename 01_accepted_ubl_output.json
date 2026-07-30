@@ -1,0 +1,110 @@
+{
+  "contractVersion": "einvoice-suite-result/1.0.0",
+  "actorName": "xrechnung-to-json-parser",
+  "itemId": "xrechnung-standard-ubl",
+  "inputIndex": 0,
+  "fileName": "01.01a-INVOICE_ubl.xml",
+  "producedAt": "2026-07-30T08:48:07.854285Z",
+  "processingStatus": "SUCCEEDED",
+  "conformanceStatus": "ACCEPTED",
+  "billable": true,
+  "scope": "DOCUMENT_NORMALIZATION_AND_TECHNICAL_CHECKS",
+  "source": {
+    "sourceKind": "URL",
+    "container": "XML",
+    "syntax": "UBL_INVOICE",
+    "sha256": "3558d8eee6499350f69c150b54b4019556458667cfc972beaa9bb7bf1e11303f",
+    "standard": {
+      "family": "XRECHNUNG",
+      "profile": "XRECHNUNG_CIUS",
+      "scenario": "EN16931 XRechnung (UBL Invoice)",
+      "identifier": "urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0"
+    }
+  },
+  "normalizationStatus": "COMPLETE",
+  "invoice": {
+    "schema": {
+      "name": "en16931-invoice",
+      "version": "1.0.0"
+    },
+    "document": {
+      "invoiceNumber": "123456XX",
+      "issueDate": "2016-04-04",
+      "invoiceTypeCode": "380",
+      "invoiceCurrencyCode": "EUR"
+    },
+    "process": {
+      "specificationIdentifier": "urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0",
+      "businessProcessIdentifier": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0"
+    },
+    "references": {
+      "buyerReference": "04011000-12345-03"
+    },
+    "lines": [
+      {
+        "id": "Zeitschrift [...]",
+        "quantity": {
+          "value": "1",
+          "unitCode": "XPP"
+        },
+        "netAmount": {
+          "amount": "288.79",
+          "currency": "EUR"
+        },
+        "item": {
+          "name": "Zeitschrift [...]"
+        },
+        "vat": {
+          "categoryCode": "S",
+          "rate": "7"
+        }
+      }
+    ],
+    "totals": {
+      "invoiceTotalIncludingVat": {
+        "amount": "336.9",
+        "currency": "EUR"
+      },
+      "amountDue": {
+        "amount": "336.9",
+        "currency": "EUR"
+      }
+    }
+  },
+  "report": {
+    "schema": {
+      "name": "technical-conformance-report",
+      "version": "1.0.0"
+    },
+    "overall": "CONFORMANT",
+    "counts": {
+      "error": 0,
+      "warning": 0,
+      "information": 1
+    },
+    "scope": {
+      "technicalConformance": "EVALUATED",
+      "legalValidity": "NOT_ASSESSED",
+      "taxRecognition": "NOT_ASSESSED",
+      "authenticity": "NOT_ASSESSED",
+      "recipientAcceptance": "NOT_ASSESSED",
+      "pdfXmlSemanticIdentity": "NOT_APPLICABLE"
+    }
+  },
+  "artifacts": {
+    "validationReport": {
+      "mediaType": "application/xml",
+      "byteLength": 29671,
+      "sha256": "7138de2fbf8dd81c3c3dce096bda7416dfc8f0c971ae02f7bec8a2118dbf0073",
+      "storageStatus": "STORED",
+      "key": "ARTIFACT-0001-xrechnung-standard-ubl.validation.xml"
+    },
+    "validationReportHtml": {
+      "mediaType": "application/xhtml+xml",
+      "byteLength": 24193,
+      "sha256": "39478a8eabee422c60c9831e108e21ab64a0ae8a68f1b6b7e50fc397ac97a43d",
+      "storageStatus": "STORED",
+      "key": "ARTIFACT-0001-xrechnung-standard-ubl.validation.html"
+    }
+  }
+}
