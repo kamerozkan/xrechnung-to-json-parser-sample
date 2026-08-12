@@ -1,8 +1,8 @@
-> **Release preview:** this Actor is private. These files document the current contract and evidence; they are not a public API availability claim.
+> **Live Actor:** [Run XRechnung to JSON Parser on Apify](https://apify.com/kamerozkan/xrechnung-to-json-parser).
 
 # XRechnung UBL and CII to JSON Parser: JSON Examples and Schema
 
-[![Apify Actor](https://img.shields.io/badge/Apify-PRIVATE%20RELEASE%20PREVIEW-00c7b7?logo=apify)](https://apify.com/kamerozkan)
+[![Apify Actor](https://img.shields.io/badge/Apify-Run%20Actor-00c7b7?logo=apify)](https://apify.com/kamerozkan/xrechnung-to-json-parser)
 ![Build](https://img.shields.io/badge/build-0.0.3%20SUCCEEDED-2f855a)
 ![PPE](https://img.shields.io/badge/document--processed-%240.005-4c1)
 ![Samples](https://img.shields.io/badge/examples-3%20paired%20JSON-2f855a)
@@ -21,12 +21,12 @@ technical discovery.
 |---|---|
 | Actor | `xrechnung-to-json-parser` |
 | Actor ID | `QR4q0jicBJaU7yhI1` |
-| Status | `PRIVATE RELEASE PREVIEW` |
+| Status | `PUBLIC STORE LISTING` |
 | Successful build | `0.0.3` |
 | Custom event | `document-processed` |
 | Exact event price | `$0.005` |
 
-Live PPE is configured at $0.005 per evaluated document, but the Actor is private and not a public endpoint.
+The live pay-per-event price is $0.005 per evaluated document. An Actor-start charge can also apply; check the Store page for the current maximum charge before a production run.
 
 Hosted build 0.0.3: accepted run vDoLHAXakiHa2XevL, source failure run iVTmKY39aMbv6zsKk, and budget run W1EFkJfrdcmgZugxr.
 

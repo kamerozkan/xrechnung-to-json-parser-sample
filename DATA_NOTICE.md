@@ -14,17 +14,14 @@ recipient.
 |---|---|
 | Snapshot date | `2026-07-30` |
 | Actor ID | `QR4q0jicBJaU7yhI1` |
-| Actor status | `PRIVATE RELEASE PREVIEW` |
+| Actor status | `PUBLIC STORE LISTING` |
 | Successful build | `0.0.3` |
 | Event contract | `document-processed` at `$0.005` |
 | Evidence class | hosted Apify run evidence |
 
 Hosted build 0.0.3: accepted run vDoLHAXakiHa2XevL, source failure run iVTmKY39aMbv6zsKk, and budget run W1EFkJfrdcmgZugxr.
 
-Private preview repositories do not claim public Store availability. Local
-contract results have `billable: false` because they were produced outside an
-Apify PPE run. They prove the pinned processing contract exercised locally,
-not a hosted charge or public lifecycle.
+The Actor is now available through its [public Store listing](https://apify.com/kamerozkan/xrechnung-to-json-parser). Local contract results with `billable: false` were produced outside an Apify PPE run. They prove the pinned processing contract exercised locally, not a hosted charge or public lifecycle.
 
 ## Input provenance
 
