@@ -1,6 +1,10 @@
 > **Live Actor:** [Run XRechnung to JSON Parser on Apify](https://apify.com/kamerozkan/xrechnung-to-json-parser).
 
-# XRechnung UBL and CII to JSON Parser: JSON Examples and Schema
+# XRechnung to JSON Parser: Samples
+
+Parse XRechnung UBL or CII XML into a stable EN 16931-oriented JSON contract with pinned technical conformance findings.
+
+[Run XRechnung to JSON Parser on Apify](https://apify.com/kamerozkan/xrechnung-to-json-parser)
 
 [![Apify Actor](https://img.shields.io/badge/Apify-Run%20Actor-00c7b7?logo=apify)](https://apify.com/kamerozkan/xrechnung-to-json-parser)
 ![Build](https://img.shields.io/badge/build-0.0.3%20SUCCEEDED-2f855a)

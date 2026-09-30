@@ -1,0 +1,15 @@
+{
+  "id": "QR4q0jicBJaU7yhI1",
+  "name": "xrechnung-to-json-parser",
+  "title": "XRechnung to JSON Parser",
+  "description": "Parse XRechnung UBL or CII XML into a stable EN 16931-oriented JSON contract with pinned technical conformance findings.",
+  "seoTitle": "XRechnung to JSON Parser - UBL & CII Invoice API",
+  "seoDescription": "Parse XRechnung UBL and CII invoice XML into stable EN 16931 JSON. Preserve source values and return explicit errors with pinned conformance findings.",
+  "isPublic": true,
+  "url": "https://apify.com/kamerozkan/xrechnung-to-json-parser",
+  "checkedAt": "2026-09-30",
+  "changeScope": "listing metadata and sample documentation only",
+  "runtimeChanged": false,
+  "schemasChanged": false,
+  "examplesRegenerated": false
+}
